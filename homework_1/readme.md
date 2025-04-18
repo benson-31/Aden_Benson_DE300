@@ -7,7 +7,7 @@ In this homework, we explore the aircraft inventory dataset from 2006 to 2023 (S
 ## Contents
 This folder contains my submission for homework 1. The components include:
 - 'benson_hw1.ipynb' - Jupyter notebook file containing code, vizualizations, and some comments in Markdown.
-- 'benson_hw1.pdf' - Document containing analysis and written answers for all questions.
+- 'Data_Eng_300_HW1_Narrative.pdf' - Document containing analysis and written answers for all questions.
 - 'readme.md' - This file.
 
 ## Instructions to Run the Code
