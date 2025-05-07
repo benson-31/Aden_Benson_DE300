@@ -182,3 +182,4 @@ aws_credentials.json
 # Common env files that might contain keys
 .env
 .env.*
+.ipython/
