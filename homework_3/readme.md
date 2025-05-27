@@ -1,5 +1,8 @@
 # HW3: MapReduce with Spark
 
+## Note on Docker
+The assignment requires that this code be run in an EC2 instance so a docker container can be constructed. However, I found that running this code on an EC2 instance was incredibly difficult, and all cells were run locally. I spent hours trying to convert my local code into EC2-friendly code that wouldn't crash my instance, but unfortunately AWS could not handle the large csv files used in this assignment. Each time I called .collect() or .show() after an operation, I would have to reboot my EC2 instance.
+
 ## Overview
 This project implements MapReduce frameworks on two projects using Pyspark.
 
@@ -27,6 +30,3 @@ If all modules are installed and the four data files are placed in a folder labe
 ## Expected Outputs
 1. Part 1 - TF-IDF. Part 1 calculates the TF-IDF term for each document. The final output calculates the tf_idf measure for each term in the first five documents in our dataset.
 2. Part 2 - SVM. Part 2 finds the loss term for our given data then predicts based on a y_hat function. The final output contains the objective value of our given data, the predictions using the y_hat function, and the loss function of our predictors.
-
-## Note on Docker
-The assignment requires that this code be run in an EC2 instance so a docker container can be constructed. However, I found that running this code on an EC2 instance was incredibly difficult, and all cells were run locally. I spent hours trying to convert my local code into EC2-friendly code that wouldn't crash my instance, but unfortunately AWS could not handle the large csv files used in this assignment. Each time I called .collect() or .show() after an operation, I would have to reboot my EC2 instance.
