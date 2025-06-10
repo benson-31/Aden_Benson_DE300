@@ -30,3 +30,6 @@ The following dependencies are required to run the source code:
 - matplotlib
 
 If the dataset is accurately placed inside the correct folder and the above dependencies are installed on the user's local machine, then the source code will successfully impute missing values into the PADS dataset, create a relational database structure in SQL, and perform logistic regression to predict whether a patient will develop PD in the future.
+
+## Reference
+Varghese, J., Brenner, A., Plagwitz, L., van Alen, C., Fujarski, M., & Warnecke, T. (2024). PADS - Parkinsons Disease Smartwatch dataset (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/m0w9-zx22
