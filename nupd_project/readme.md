@@ -8,7 +8,10 @@ The dataset used for this project is the PADS - Parkinsons Disease Smartwatch da
 
 To download, scroll to the bottom of the link pasted above. You'll see a section titled "Files", with a link that says "Download the Zip File". Click this link, and the database will begin downloading. 
 
-Note: This is a very large dataset, and will need about 1.4 GB of storage. The download process may take close to an hour.
+Notes:
+
+- This is a very large dataset, and will need about 1.4 GB of storage. The download process may take close to an hour.
+- The sample_data folder in this repository will NOT run with the code, this is simply the data structure with one patient's worth of data.
 
 ### Running the Code
 In this Github, you'll see a file titled **final_rdd_imputation_classification.ipynb**. This contains all the source code for creating the relational database, completing imputation, and constructing a logistic regression model.
